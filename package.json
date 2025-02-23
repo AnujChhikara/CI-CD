@@ -2,14 +2,13 @@
   "name": "cd",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "dev": "node src/index.js",
-    "prepare": "husky install",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "",
@@ -23,13 +22,6 @@
     "eslint": "^9.21.0",
     "globals": "^16.0.0",
     "husky": "^9.1.7",
-    "lint-staged": "^15.4.3",
-    "prettier": "3.5.2"
-  },
-  "lint-staged": {
-    "**/*.{js,ts,json,md}": [
-      "eslint --fix",
-      "prettier --write"
-    ]
+    "prettier": "^3.5.2"
   }
 }

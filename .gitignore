@@ -1,8 +1,2 @@
-.env
 node_modules
-# Husky
-.husky/_/
-
-# Lint & Prettier cache
-.eslintcache
-.prettier-cache
+.env
